@@ -1,0 +1,540 @@
+/*テンプレ以外に追加のCSSはここに記載*/
+/*ボタンアイコンの右マージン*/
+.btn .fa-phone:before,
+.btn .fa-shopping-cart:before{
+  margin-right: 5px;
+}
+/*フッターバナー*/
+p.banner{
+  margin-bottom: 30px;
+}
+/*トップアクセスマップリンク*/
+.top .social-links a {
+    /*display: inline-block;
+    font-size: 14px;*/
+    color: #FFFFFF;
+    /*line-height: normal;
+    padding: 0 0;
+    margin-left: 26px;*/
+}
+/*トップページ*/
+.box-imageplace{
+  /*height: 270px;*/
+}
+.title-section .title{
+  font-weight: bold;
+}
+/*お取り扱い製品一覧*/
+.iconbox .box-content ul li{
+  display: inline-block;
+  margin-right: 12px;
+  line-height: 1.4;
+}
+.iconbox .box-content ul li a{
+  padding-left: 5px;
+}
+/**.iconbox .box-content ul li:before{
+  content: '\f101';
+}*/
+/*営業案内・アクセスマップ*/
+.access h3.title{
+  margin-bottom: 5px;
+}
+.access p{
+  margin-bottom: 1em;
+}
+/*スマホ電話ボタン*/
+.mobile-phonecall{
+  display: none;
+}
+/*CMソング*/
+.btn-rocketsong{
+  display: block;
+  width: 75%;
+  background: #F74242;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  color: #FFF;
+}
+.btn-rocketsong:hover{
+  color: #FFF;
+  background: #F57C7C;
+}
+.btn-rocketsong .box-rocketsong-content{
+  margin-bottom: 10px;
+}
+.btn-rocketsong .btn-rocketsong-link span{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 5px;
+  color: #F74242;
+}
+.btn-rocketsong .btn-rocketsong-link .fa-headphones{
+  color: #F74242;
+}
+.btn-rocketsong .box-rocketsong-title{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+/*通信販売リンクボタン*/
+.box-btn-shopping{
+  text-align: center;
+  margin-top: 30px;
+}
+.box-btn-shopping .btn-danger{
+  border-color: #FF0000;
+  background-color: #FFF;
+  color: #FF0000;
+}
+.box-btn-shopping .btn-danger:hover{
+  background-color: #FCEAEA;
+}
+/*下層リード*/
+section.lower-lead{
+  padding: 50px 0;
+}
+.lead-section p{
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.lead-section p img{
+  margin-right: 20px;
+}
+/*製品リスト*/
+.flat-row.product{
+  padding: 80px 0 0;
+}
+
+.product-list .row{
+  margin-bottom: 50px;
+}
+.product-list .placeholder-photo,
+.product-list .flexslider .slides li{/*製品写真*/
+  text-align: center;
+}
+
+.product-list .flexslider .slides img{
+  width: auto;
+  display: inline;
+}
+.product-list .placeholder-brand{/*メーカー・ブランドアイコン*/
+
+}
+.product-list .placeholder-num h3{/*品番*/
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.product-list .placeholder-num h3 span{/*品番（タイプ）*/
+  margin-right: 15px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.product-list .placeholder-name h4{/*品名*/
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.product-list .placeholder-listprice dl,
+.product-list .placeholder-sellprice dl,
+.product-list .placeholder-notaxprice dl{/*価格表記共通*/
+  clear: both;
+}
+.product-list .placeholder-listprice dt,
+.product-list .placeholder-sellprice dt,
+.product-list .placeholder-notaxprice dt{/*価格ラベル表記共通*/
+  float: left;
+  width: 30%;
+}
+.product-list .placeholder-listprice dd,
+.product-list .placeholder-sellprice dd,
+.product-list .placeholder-notaxprice dd{/*価格ラベル表記共通*/
+  float: left;
+  width: 70%;
+}
+.product-list .placeholder-listprice{/*定価・メーカー希望小売価格*/
+  margin-top: 15px;
+  font-size: 14px;
+}
+.product-list .placeholder-sellprice{/*特価・販売価格*/
+  margin-top: 10px;
+
+}
+.product-list .placeholder-sellprice dd{
+  font-size: 14px;
+}
+.product-list .placeholder-sellprice dd span{
+  font-weight: bold;
+  font-size: 18px;
+}
+.product-list .placeholder-sellprice dd .btn{
+  margin-left: 20px;
+}
+.product-list .placeholder-notaxprice{/*特価・販売価格（税抜き）*/
+  margin-top: 10px;
+  font-size: 14px;
+}
+.product-list .placeholder-spec table{/*スペック・サイズ表*/
+  border-bottom: 1px solid #ddd;
+  margin: 15px 0 5px;
+}
+.placeholder-link ul{/*関連リンク*/
+  margin: 15px 0;
+}
+.product-list .placeholder-spec .btn-open,
+.product-list .placeholder-spec .btn-close{
+  display: none;
+  font-size: 14px;
+}
+.product-list .placeholder-spec table th{/*スペック・サイズ表*/
+  background: #EFEFEF;
+}
+.product-list .placeholder-pricenote,
+.product-list .placeholder-specnote{/*注記・補足*/
+  font-size: 12px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+/*販売規定（番号付きリスト）*/
+.kitei{
+  list-style: decimal;
+  margin: 0 0 30px 18px;
+}
+.kitei li{
+  margin-bottom: 12px;
+}
+.kitei li ol{
+    list-style:decimal;
+    margin: 15px 0 15px 30px;
+
+}
+/*特定商取引　表*/
+.tokutei th{
+  width: 30%;
+  background: #EFEFEF;
+}
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+  .social-links a span{
+    /*display: none;*/
+    font-size: 12px;
+  }
+  .header.header-style3 {
+		/*position: fixed;
+    top:50px;*/
+	}
+  .top .flat-information li{
+    margin-right: 0;
+  }
+  /*スマホ電話ボタン*/
+  .mobile-phonecall{
+    display: block;
+  }
+  /*CMソング*/
+  .btn-rocketsong{
+    margin: auto;
+    width: 100%;
+  }
+  /*お取り扱い製品一覧*/
+  /*.iconbox .box-content img{
+    display: none;
+  }*/
+  /*下層タイトル*/
+  .page-title{
+    padding: 0;
+  }
+  .breadcrumbs ul{
+    padding: 0;
+  }
+  /*下層リード*/
+  section.lower-lead{
+    padding: 25px 0;
+  }
+  /*製品写真*/
+  .product-list .placeholder-photo img{
+    max-height: 300px;
+  }
+  .procuct-photo,.prouct-detail{
+    padding: 0;
+  }
+  .procuct-detail{
+    margin-top:15px
+  }
+  /*注文書ダウンロードボタン*/
+  .product-list .placeholder-sellprice dd .btn{
+    margin: 10px 0;
+  }
+  /*スペック・表テーブルアコーディオン*/
+  .product-list .placeholder-spec .btn-open,
+  .product-list .placeholder-spec .btn-close{
+    display: block;
+    margin-top:15px;
+  }
+
+  .product-list .placeholder-spec .placeholder-table{
+    display: none;
+  }
+  /*バグフィックス用パディング調整*/
+  .pad15{
+    padding: 0 15px;
+  }
+}
+
+
+/*----------------sitemap------------------*/
+
+.sitemap {
+}
+
+.sitemap ul {
+	padding: 0 2em 0 3.5em;
+	margin: 0 0 2em;
+}
+.sitemap ul li {
+	list-style-type: disc;
+}
+.sitemap ul li a {
+	text-decoration: underline;
+}
+
+/*----------------connnector_04------------------*/
+
+.connector_04 a {
+	text-decoration: underline;
+}
+
+/*----------------loop-ant------------------*/
+
+.loop-ant ol,
+.loop-ant ul {
+	padding: 0 2em 0 3.5em;
+	margin: 0 0 2em;
+}
+.loop-ant ol li {
+	list-style-type: decimal;
+}
+.loop-ant ul li {
+	list-style-type: disc;
+}
+.loop-ant ol li a,
+.loop-ant ul li a {
+	text-decoration: underline;
+}
+
+
+
+/*________________________ bits ________________________\*/
+
+.fclear {
+	clear: both;
+}
+.float_l {
+	float: left;
+}
+.float_r {
+	float: right;
+}
+
+p img.float_l {
+	margin: 0 15px 15px 0;
+}
+ p img.float_r {
+	margin: 0 0 15px 15px;
+}
+
+.align_c {
+	text-align: center !important;
+}
+
+.align_c img {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.align_l {
+	text-align: left !important;
+}
+
+.align_r {
+	text-align: right !important;
+}
+.indent-10em {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+.indent-15em {
+	padding-left: 1.5em;
+	text-indent: -1.5em;
+}
+.marginlrauto {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+.nomargin {
+	margin: 0px !important;
+}
+.marginb10 {
+	margin-bottom: 10px !important;
+}
+.marginb20 {
+	margin-bottom: 20px !important;
+}
+.marginb30 {
+	margin-bottom: 30px !important;
+}
+.marginb50 {
+	margin-bottom: 50px !important;
+}
+.marginb2em {
+	margin-bottom: 2em !important;
+}
+
+.nopadding {
+	padding: 0px !important;
+}
+
+.paddingt2em {
+	padding-top: 2em !important;
+}
+.paddingt10 {
+	padding-top: 10px !important;
+}
+.paddingt20 {
+	padding-top: 20px !important;
+}
+.paddingb10 {
+	padding-bottom: 10px !important;
+}
+.paddingb20 {
+	padding-bottom: 20px !important;
+}
+.paddingb30 {
+	padding-bottom: 30px !important;
+}
+.paddinglr10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.hide {
+	display: none;
+}
+.hidden {
+	visibility: hidden;
+}
+.underline {
+	text-decoration: underline;
+}
+.overline {
+	text-decoration: overline;
+}
+
+.x06emfont {
+	font-size: 0.6em !important;
+}
+.x08emfont {
+	font-size: 0.8em !important;
+}
+
+.x10emfont {
+	font-size: 1em !important;
+}
+
+.x12emfont {
+	font-size: 1.2em !important;
+}
+
+.x14emfont {
+	font-size: 1.4em !important;
+}
+
+.blue {
+	color: #00f !important;
+}
+
+.red {
+	color: #f00 !important;
+}
+
+.orange {
+	color: #f60 !important;
+}
+
+.pink {
+	color: #e43f7b !important;
+}
+
+.pinkline {
+	background: #ffe7ef;
+	padding: 1px;
+}
+
+.brown01 {
+	color: #9a5000 !important;
+}
+
+.date {
+	color: #f60 !important;
+}
+
+.bold {
+	font-weight: bold !important;
+}
+
+.italic {
+	font-style: italic
+}
+
+hr.hidden {
+	height: 1px;
+	clear: both;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+br.fclear {
+	clear: both;
+	font-size: 1px;
+	line-height: 0px;
+	height: 1px;
+	overflow: hidden;
+}
+
+div.fclear {
+	height: 1px;
+	overflow: hidden ;
+}
+
+.fclear hr {
+	display: none;
+	height: 0px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden ;
+}
+
+table.spectable {
+	border: none;
+}
+table.spectable tr {
+}
+table.spectable th {
+	padding: 0.5em 1em;
+	background: #EFEFEF;
+	border: 1px solid #ddd;
+	white-space: nowrap;
+}
+table.spectable td {
+	padding: 0.5em 1em;
+	border: 1px solid #ddd;
+}
+
+.disptable {
+	display: table;
+}
+.disptablecell {
+	display: table-cell;
+}
